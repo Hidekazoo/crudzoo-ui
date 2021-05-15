@@ -1,0 +1,25 @@
+.base {
+  min-height: 32px;
+  min-width: 80px;
+  padding: var(--space-3x) var(--space-6x);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 20px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: none;
+}
+
+.default {
+  background-color: var(--text-primary);
+  color: #fff;
+}
+
+.reset {
+  background-color: #fff;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}

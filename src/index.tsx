@@ -1,5 +1,4 @@
-import React from "react";
+import "./styles/reset.css";
+import "./styles/global.css";
 
-export const Button = () => {
-  return <button>Button</button>;
-};
+export * from "./components/button";
